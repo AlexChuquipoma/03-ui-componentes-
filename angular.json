@@ -16,21 +16,20 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-          "outputPath": "docs",
-          "index": "src/index.html",
-          "browser": "src/main.ts",
-          "tsConfig": "tsconfig.app.json",
-          "assets": [
-            {
-              "glob": "**/*",
-              "input": "public"
-            }
-          ],
-          "styles": [
-            "src/styles.css"
-          ]
-        }
-        ,
+            "outputPath": "dist/03-ui-componentes-estilos",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "public"
+              }
+            ],
+            "styles": [
+              "src/styles.css"
+            ]
+          },
           "configurations": {
             "production": {
               "budgets": [
@@ -47,9 +46,8 @@
               ],
               "outputHashing": "all",
               "outputPath": "docs",
-              "baseHref": "/03-ui-componentes-/",
-              "deployUrl": "/03-ui-componentes-/"
-
+              "baseHref": "/03-ui-componentes/",
+              "deployUrl": "/03-ui-componentes/"
             },
             "development": {
               "optimization": false,
