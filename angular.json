@@ -48,8 +48,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/03-ui-componentes-/",
-              "deployUrl": "/03-ui-componentes/"
+              "baseHref": "/03-ui-componentes-/"
             },
             "development": {
               "optimization": false,
