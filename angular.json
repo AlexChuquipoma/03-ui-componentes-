@@ -16,18 +16,21 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "browser": "src/main.ts",
-            "tsConfig": "tsconfig.app.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
-            "styles": [
-              "src/styles.css"
-            ]
-          },
+          "outputPath": "docs",
+          "index": "src/index.html",
+          "browser": "src/main.ts",
+          "tsConfig": "tsconfig.app.json",
+          "assets": [
+            {
+              "glob": "**/*",
+              "input": "public"
+            }
+          ],
+          "styles": [
+            "src/styles.css"
+          ]
+        }
+        ,
           "configurations": {
             "production": {
               "budgets": [
